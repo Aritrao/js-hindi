@@ -42,3 +42,54 @@ let someNumber = 33
 let stringNumber = String(someNumber)
 console.log(stringNumber);
 console.log(typeof stringNumber);
+
+// ******************* Operations **********************
+
+let value = 3
+let negValue = -value
+console.log(negValue);
+
+console.log(2+2);
+console.log(2-2);
+console.log(2*2);
+console.log(2**3); // to the power symbol => **
+console.log(2/3);
+console.log(2%3);
+
+let str1 = "hello"
+let str2 = " Aritra"
+
+let str3 = str1 + str2
+console.log(str3);
+
+console.log("1" + 2);
+console.log(1 + "2");
+console.log("1" + 2 + 2);
+console.log(1 + 2 + "2");
+
+
+// conversion er first value string thakle sob value kei string dhore neoya hoi r string last e thakle first e je conversion thakbe ota hoye jabe then string add hobe
+
+// dont use this type of code cause this type of code not acceptable in google, amazon etc.
+
+console.log((3+4) * 5 % 3); // use parenthesis or bracket like this type of conversion
+
+console.log(+true);   // dont do this type of conversion
+console.log(+"");   // dont do this type of conversion
+
+let num1, num2, num3 
+
+num1 = num2 = num3 = 2 + 2  // dont do this type of tricky conversion 
+
+let gameCounter = 100
+let gameCounter1 = 100
+
+gameCounter++;
+++gameCounter1;
+console.table([gameCounter, gameCounter1]);
+
+// link to study
+// https://tc39.es/ecma262/#sec-intro
+
+
+
