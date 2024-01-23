@@ -40,3 +40,30 @@ const myFunction = function(){
 }
 
 console.table([typeof score, typeof scoreValue, typeof isLoggedIn, typeof outsideTemp, typeof userEmail, typeof bigNumber, typeof myFunction, typeof heros, typeof anotherId])
+
+
+// ******************  Memory  ***********************
+
+// Stack Memory, Heap Memory
+// Stack used in Primitive types // Stack Memory give o copy of the original values
+
+// Heap used in Non-Primitivre types // Heap Memory gives reference of the original values
+
+let myYoutubename = "Aritra aka Zeus"
+let anothername = myYoutubename
+anothername = "Zeus"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "aritra@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
