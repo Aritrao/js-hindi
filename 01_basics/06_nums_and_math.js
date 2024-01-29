@@ -32,4 +32,4 @@ console.log(Math.floor(Math.random()*10) + 1);
 const min = 10
 const max = 20
 
-Math.random()
+console.log(Math.floor(Math.random() * (max - min + 1)) + min); // formula, here we add min value in last cause we want the value is greater than min value mins graeter than 10..
